@@ -1,0 +1,23 @@
+.NavBar {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 21px -7px rgba(0, 0, 0, .2);
+  background-color: pink;
+}
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+span {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding: 15px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
