@@ -7,14 +7,14 @@ function NavBar (props) {
 const left = linksLeft.map((left) => {
   return (
     <li>
-      <a href="#">{left}</a>
+      <a href={"#"}>{left}</a>
     </li>
   );
 });
 const right = linksRight.map((right) => {
   return (
     <li>
-      <a href="#">{right}</a>
+      <a href={"#"}>{right}</a>
     </li>
   );
 });
